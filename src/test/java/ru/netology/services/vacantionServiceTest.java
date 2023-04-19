@@ -3,11 +3,11 @@ package ru.netology.services;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
-//import ru.netology.services.vacantionservice;
-public class vacantionservicetest {
+//import ru.netology.services.vacantionService;
+public class vacantionServiceTest {
     @Test
     void firstCalculateVacation() {
-        vacantionservice service = new vacantionservice();
+        vacantionService service = new vacantionService();
         // подготавливаем данные:
         int income = 10_000;
         int expences = 3_000;
@@ -22,7 +22,7 @@ public class vacantionservicetest {
 
     @Test
     void secondCalculateVacation() {
-        vacantionservice service = new vacantionservice();
+        vacantionService service = new vacantionService();
         // подготавливаем данные:
         int income = 100_000;
         int expences = 60_000;
